@@ -15,9 +15,10 @@ Manage Gmail using a FastMCP API server for Gemini-CLI. Supports reading emails 
 
 ```bash
 pip install uv
-cd gemini-email-mcp
+cd gemini-tasks-mcp
 uv venv
-uv pip install
+source .venv/bin/activate
+uv run main.py
 ```
 
 ### Generate Google API Credentials
